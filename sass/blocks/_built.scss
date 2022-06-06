@@ -1,0 +1,147 @@
+.built {
+  margin-top: 114px;
+}
+
+.built__inner {
+  padding-bottom: 90px;
+  background-image: url("../images/sc-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+}
+
+.built__title {
+  width: 510px;
+  margin: 0 auto;
+  margin-bottom: 57px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343D;
+}
+
+.built__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.built__item {
+  position: relative;
+  list-style-type: none;
+  padding-top: 88px;
+}
+
+.built__item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/sc1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.built__item:nth-child(2)::before {
+  background-image: url("../images/sc2.svg");
+}
+
+.built__item:nth-child(3)::before {
+  background-image: url("../images/sc3.svg");
+}
+
+.built__item:nth-child(4)::before {
+  background-image: url("../images/sc4.svg");
+}
+
+.built__item-title {
+  margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #22343D;
+}
+
+.built__item-text {
+  margin-bottom: 26px;
+  width: 240px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+} 
+
+.built__link {
+  width: 175px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF !important;
+  background-color: #02897A;
+  border-radius: 4px;
+}
+
+.built__link:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 520px) {
+  .built {
+    margin-top: 99px;
+  }
+
+  .built__title {
+    width: 330px;
+    margin-bottom: 50px;
+  }
+
+  .built__list {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  
+  .built__item {
+    width: 240px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    padding-top: 74px;
+  }
+
+  .built__item::before {
+    left: 95px;
+  }
+
+  .built__item-title {
+    width: 192px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+  
+  .built__item-text {
+    width: 226px;
+    margin: 0 auto;
+  } 
+}
+
+@media only screen and (max-width: 475px) {
+  .built__title {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .built__title {
+    width: 250px;
+  }
+}

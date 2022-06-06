@@ -1,0 +1,124 @@
+
+.hero__inner {
+  display: flex;
+  margin-top: 50px;
+}
+
+.hero__content {
+  padding-top: 120px;
+  width: 510px;
+}
+
+.hero__title {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343D;
+}
+
+.hero__text {
+  margin-bottom: 45px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343D;
+} 
+
+.hero__link-box {
+  width: 366px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__link {
+  padding: 15px 41px;
+  text-decoration: none;
+  color: #ffffff !important;
+  background-color: #02897A;
+  border-radius: 4px;
+}
+
+.hero__link:hover {
+  opacity: 0.8;
+}
+
+.hero__link-video {
+  position: relative;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #02897A !important;
+}
+
+.hero__link-video:hover {
+  opacity: 0.8;
+}
+
+.hero__link-video::before {
+  position: absolute;
+  top: 3px;
+  left: -20px;
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-image: url("../images/hero_link_before.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+@media only screen and (max-width: 520px) {
+  .hero__inner {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+  }
+
+  .hero__content {
+    padding-top: 10px;
+    max-width: 510px;
+    width: 100%;
+  }
+
+  .hero__title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+  }
+
+  .hero__text {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  } 
+
+  .hero__link-box {
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .hero__img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .hero__link {
+    padding: 10px 21px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero__link {
+    padding: 5px 11px;
+  }
+}

@@ -1,0 +1,145 @@
+.table {
+  margin-top: 150px;
+}
+
+.table__title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  color: #22343D;
+}
+
+.table__text {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #22343D;
+}
+
+.table__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table__item {
+  padding: 24px 0 32px;
+  width: 322px;
+  text-align: center;
+  list-style-type: none;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.table__item-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.title-nth2 {
+  color: #FFFFFF;
+}
+
+.table__item-text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.text-nth2 {
+  color: #FFFFFF;
+}
+
+.table__sum {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+
+.sum-nth2 {
+  color: #FFFFFF;
+}
+
+.table__sup {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #02897A;
+}
+
+.sup-nth2 {
+  color: #FFFFFF;
+}
+
+.table__sub {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #AFAFAF;
+}
+
+.sub-nth2 {
+  color: #E0E0E0;
+}
+
+.table__sum-text {
+  width: 134px;
+  margin: 0 auto;
+  margin-bottom: 38px;
+}
+
+.table__link {
+  padding: 11px 19px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  background-color: #02897A;
+  border-radius: 8px;
+}
+
+.link-nth2 {
+  color: #02897A !important;
+  background-color: #FFFFFF;
+}
+
+.table__link:hover {
+  opacity: 0.8;
+}
+
+.table__item:nth-child(2) {
+  color: #FFFFFF;
+  background-color: #02897A;
+}
+
+@media only screen and (max-width: 520px) {
+  .table {
+    margin-top: 61px;
+  }
+  
+  .table__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .table__item {
+    margin-bottom: 32px;
+  }
+}

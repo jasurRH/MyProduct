@@ -1,0 +1,124 @@
+.estimate {
+  margin-top: 150px;
+}
+
+.estimate__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #22343D;
+}
+
+.estimate__text {
+  width: 537px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
+
+.estimate__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.estimate__item {
+  width: 327px;
+  padding: 28px 26px;
+  list-style-type: none;
+  background-color: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+.estimate__item-text {
+  position: relative;
+  margin-bottom: 17px;
+  padding-top: 63px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.estimate__item-text::before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: inline-block;
+  width: 107px;
+  height: 19px;
+  background-image: url("../images/estimate-star.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.estimate__name {
+  position: relative;
+  display: block;
+  padding-left: 64px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+
+.estimate__name::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/estimate1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.estimate__item:nth-child(2) > .estimate__name::before {
+  background-image: url("../images/estimate2.svg");
+}
+
+.estimate__item:nth-child(3) > .estimate__name::before {
+  background-image: url("../images/estimate3.svg");
+}
+
+.estimate__position {
+  padding-left: 64px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+@media only screen and (max-width: 520px) {
+  .estimate {
+    margin-top: 100px;
+  }
+
+  .estimate__text {
+    width: 323px;
+    margin-bottom: 32px;
+  }
+
+  .estimate__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .estimate__item {
+    margin-bottom: 32px;
+  }
+}
