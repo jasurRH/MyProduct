@@ -1,13 +1,14 @@
 .built {
   margin-top: 114px;
+  background-image: url("../images/sc-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
 }
 
 .built__inner {
   padding-bottom: 90px;
-  background-image: url("../images/sc-bg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: bottom;
+
 }
 
 .built__title {

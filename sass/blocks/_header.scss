@@ -20,6 +20,10 @@
   list-style-type: none;
 }
 
+.navbar__item:nth-child(1) > .navbar__link {
+  color: #02897A;
+}
+
 .navbar__item:nth-child(5) > .navbar__link {
   width: 100%;
   padding: 10px 22px;
@@ -50,6 +54,22 @@
   line-height: 28px;
   text-decoration: none;
   color: #22343D;
+}
+
+.pricing__link {
+  color: #02897A;
+}
+
+.customers__link {
+  color: #02897A;
+}
+
+.pricing__link1 {
+  color: #22343D !important;
+}
+
+.pricing__link1:hover {
+  color: #02897A !important;
 }
 
 .navbar__link:hover {

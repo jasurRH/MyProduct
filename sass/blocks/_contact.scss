@@ -1,12 +1,14 @@
+.contact {
+  background-image: url("../images/contact_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+}
 
 .contact__inner {
   margin: 0 auto;
   padding-top: 53px;
   width: 963px;
-  background-image: url("../images/contact_bg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: top;
 }
 
 .contact__title {
