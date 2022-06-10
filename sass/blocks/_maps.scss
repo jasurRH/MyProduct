@@ -1,0 +1,52 @@
+.maps {
+  padding-top: 100px;
+}
+
+.maps__inner {
+  max-width: 871px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.maps__title {
+  padding-bottom: 27px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.maps__text {
+  padding-bottom: 65px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+}
+
+.maps__list {
+  display: flex;
+  justify-content: space-between;
+  width: 194px;
+  margin: 0 auto;
+  padding-bottom: 56px;
+}
+
+.maps__item {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .maps {
+    padding-top: 50px;
+  }
+
+  .maps__map {
+    max-width: 362;
+    width: 100%;
+  }
+}

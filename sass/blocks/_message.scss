@@ -1,0 +1,91 @@
+.message {
+  margin-top: 60px;
+}
+
+.message__inner {
+  padding: 52px 50px;
+  max-width: 871px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+}
+
+.message__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.message__form {
+  padding-top: 45px;
+}
+
+.massage__input {
+  display: block;
+  max-width: 830px;
+  width: 100%;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #22343D;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+}
+
+.massage__input-email {
+  display: block;
+  max-width: 830px;
+  width: 100%;
+  margin-top: 45px;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #22343D;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+}
+
+.massage__input-text {
+  display: block;
+  max-width: 830px;
+  width: 100%;
+  margin-top: 45px;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #22343D;
+  resize: none;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+}
+
+.massage__btn {
+  margin-top: 45px;
+  padding: 18px 54px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #02897A;
+  border-radius: 35px;
+  border: 0;
+}
+
+.massage__btn:hover {
+  opacity: 0.8;
+}
